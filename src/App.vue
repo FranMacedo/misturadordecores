@@ -1,24 +1,18 @@
 <template>
   <v-app>
  <v-container>
-   <div class="d-flex justify-center align-baseline">
-   <div class="text-h2">Misturador de Cores</div>
-   
+   <div class="d-flex flex-wrap justify-center align-baseline">
+   <div class="text-h2">Misturacor</div>
+   <div class="text-h5">&#8226; Misturador de Cores</div>
    </div>
-
-
-    <v-row>
-   
+    <v-row>   
       <v-col cols="12" md="6"> 
-        
-        
         <v-row>
           <v-col cols="12" sm="6" >
             <div class="d-flex justify-center">Cor da Carlota</div>
             <v-color-picker v-model="color1m"
             dot-size="25"
             swatches-max-height="200"
-            
             ></v-color-picker>
           </v-col>
           <v-col cols="12" sm="6" >
@@ -101,9 +95,6 @@ import * as colorBlend from "color-blend";
         set (v) {
           this.color2 = v
           this.setMixedColor()
-          // this.mixedColor = `rgba(${color2_['r']}, ${color2_['g']}, ${color2_['b']}, ${color2_['a']})`
-          // const color1_ = this.color1
-          // this.mixedColor = this.colorMixer([color2_['r'],color2_['g'], color2_['b']], [color1_['r'],color1_['g'],color1_['b']], 0.5)
         },
       },
    
