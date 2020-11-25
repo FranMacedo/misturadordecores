@@ -152,9 +152,9 @@ import * as colorBlend from "color-blend";
         const mixedColor_ = this.useBlendType(this.color2, this.color1)
         this.mixedColor = this.formatObjectRGBA(mixedColor_)
 
-        console.log('1: ', this.formatObjectRGBA(this.color1))
-        console.log('2: ', this.formatObjectRGBA(this.color2))
-        console.log('mix: ', this.mixedColor)
+        // console.log('1: ', this.formatObjectRGBA(this.color1))
+        // console.log('2: ', this.formatObjectRGBA(this.color2))
+        // console.log('mix: ', this.mixedColor)
 
       },
       formatObjectRGBA(color){
