@@ -4,8 +4,9 @@
         class="d-flex justify-center"
       >
       <div class="d-flex justify-center align-center" 
-      :style="{ 'background-color': color , 'height': '75vh', 'width': '100vh'}"
+      :style="{ 'background-color': color , 'height': '75vh', 'width': '100%'}"
       >
+        resultado :::: 
         {{color}}
 
       </div>

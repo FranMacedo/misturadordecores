@@ -2,8 +2,7 @@
   <v-app>
  <v-container>
    <div class="d-flex justify-center align-baseline">
-   <div class="text-h2 ">Misturador de Cores
-   </div>
+   <div class="text-h2">Misturador de Cores</div>
    
    </div>
 
