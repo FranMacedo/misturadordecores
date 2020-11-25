@@ -71,6 +71,7 @@ import * as colorBlend from "color-blend";
       ColorArea,
       // colorTest
     },
+   
 
     data: () => ({
       types: ["screen", "normal", "multiply", "overlay", "darken", "lighten", "colorDodge", "colorBurn", "hardLight", "softLight", "difference", "exclusion", "hue", "saturation", "color", "luminosity"],
