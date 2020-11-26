@@ -70,8 +70,8 @@ import * as colorBlend from "color-blend";
     data: () => ({
       types: ["screen", "normal", "multiply", "overlay", "darken", "lighten", "colorDodge", "colorBurn", "hardLight", "softLight", "difference", "exclusion", "hue", "saturation", "color", "luminosity"],
       type: 'screen',
-      color1: { r: 228, g: 216, b: 228, a: 1 },
-      color2:{ r: 175, g: 67, b: 67, a: 1 },
+      color1: { r: 17, g: 138, b: 46, a: 1 },
+      color2:{ r: 251, g: 219, b: 101, a: 1 },
         toggle_exclusive: undefined,
 
       mixedColor: "rgb(255, 0, 255)" 
