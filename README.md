@@ -1,5 +1,7 @@
 # colormixer
+Mixes any too colors, with multiple blending methods
 
+live [here](https://franciscomacedo.pt/colormixer)
 ## Project setup
 
 ```

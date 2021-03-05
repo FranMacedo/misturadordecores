@@ -25,6 +25,10 @@
               ></v-color-picker>
             </v-col>
           </v-row>
+          <div class="text-h5 text-center">
+            &#8280; Choose your blending method &#8280;
+          </div>
+
           <v-btn-toggle
             v-model="toggle_exclusive"
             mandatory
