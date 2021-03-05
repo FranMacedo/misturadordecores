@@ -1,41 +1,33 @@
 <template>
   <v-container>
-     <v-col
-        class="d-flex justify-center"
+    <v-col class="d-flex justify-center">
+      <div
+        class="d-flex justify-center align-center"
+        :style="{ 'background-color': color, height: '75vh', width: '100%' }"
       >
-      <div class="d-flex justify-center align-center" 
-      :style="{ 'background-color': color , 'height': '75vh', 'width': '100%'}"
-      >
-        resultado :::: 
-        {{color}}
-
+        result ::::
+        {{ color }}
       </div>
-      
-      </v-col>
-      <v-col
-        class="d-flex justify-center"
-      >
-      <div>
-      </div>
-      </v-col>
-
+    </v-col>
+    <v-col class="d-flex justify-center">
+      <div></div>
+    </v-col>
   </v-container>
 </template>
 
 <script>
-
-  export default {
-     props: {
-      color: String,
-    },
-    // data(){
-    //    return{
-    //      myStyle:{
-    //         backgroundColor: this.color,
-    //         height: "200px",
-    //         width: "600px",
-    //         }
-    //        }
-    //      }
-  }
+export default {
+  props: {
+    color: String,
+  },
+  // data(){
+  //    return{
+  //      myStyle:{
+  //         backgroundColor: this.color,
+  //         height: "200px",
+  //         width: "600px",
+  //         }
+  //        }
+  //      }
+};
 </script>
