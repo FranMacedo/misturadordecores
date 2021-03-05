@@ -2,7 +2,7 @@
 const execa = require("execa");
 var rimraf = require("rimraf");
 const fs = require("fs");
-const appURL = 'franciscomacedo.pt';
+// const appURL = 'franciscomacedo.pt';
 
 
 (async () => {
@@ -13,14 +13,14 @@ const appURL = 'franciscomacedo.pt';
     await execa("npm", ["run", "build"]);
     // Understand if it's dist or build folder
     const folderName = fs.existsSync("dist") ? "dist" : "build";
-    await fs.writeFile(`${folderName}/CNAME`, appURL, function (err) {
-      if (err === null) {
-        console.log('website url defined CNAME:', appURL)
-      }
-      else {
-        console.log(err)
-      }
-    });
+    // await fs.writeFile(`${folderName}/CNAME`, appURL, function (err) {
+    //   if (err === null) {
+    //     console.log('website url defined CNAME:', appURL)
+    //   }
+    //   else {
+    //     console.log(err)
+    //   }
+    // });
 
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
