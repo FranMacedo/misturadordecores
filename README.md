@@ -1,7 +1,7 @@
 # colormixer
 Mixes any too colors, with multiple blending methods
 
-live [here](https://franciscomacedo.pt/colormixer)
+live [here](https://franciscobmacedo.github.io/colormixer/)
 ## Project setup
 
 ```
